@@ -1,0 +1,22 @@
+{
+	"consumer": {
+	  "host": "rabbit.dev.domain.com",
+	  "port": 5672,
+	  "virtualhost": "/",
+	  "user": "masterUser",
+	  "password": "s0M3P4$$W0rd!"
+  },
+  "publisher": {
+	"host": "rabbit.prod.domain.com",
+	"port": 5672,
+	"virtualhost": "/",
+	"user": "masterUser",
+	"password": "s0M3P4$$W0rd!"
+  },
+  "server": {
+	"host": "rabbit.dev.domain.com",
+	"username": "masterUser",
+	"password": "s0M3P4$$W0rd!",
+	"virtualhost": "/"
+  }
+}
