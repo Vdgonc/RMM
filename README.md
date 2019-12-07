@@ -1,24 +1,24 @@
-#RabbitMQ Message Migrator
-######Author: [Vinicius Justino](https://twitter.com/VdGonc)
+# RabbitMQ Message Migrator
+###### Author: [Vinicius Justino](https://twitter.com/VdGonc)
 
 ---
-####Description:
+#### Description:
 This is a simple tool for migrating messages on RabbitMQ server to
 other RabbitMQ server.
 
-###How to Works:
+### How to Works:
 RMM queries the RabbitMQ API to enumerate queues, exchanges and routing keys,
 and connect on server and consumes the queues and publish to the same queues as the other server.
 
-###How to use:
-#####Commands
+### How to use:
+##### Commands
     Usage:
         rmm.py -c config.json
     Flags:
         -h or --help 	help for rmm
         -c or --config 	Json path configuration
 
-#####The json config:
+##### The json config:
 
     {
 	"consumer": {
@@ -45,6 +45,6 @@ and connect on server and consumes the queues and publish to the same queues as 
       }
     }
 
-###How to install:
-#####Instaling dependences:
+### How to install:
+##### Instaling dependences:
     pip3 install -r requirements.txt
